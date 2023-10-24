@@ -9,7 +9,7 @@ public class sw : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag("Player")) {
              door.SetActive(!door.activeSelf);
-    }
+}    }
 }
